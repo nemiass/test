@@ -12,6 +12,12 @@ namespace myApp
         static void Main(string[] args)
         {
             Console.WriteLine("Soy dev");
+            saludar();
+        }
+
+        static void saludar()
+        {
+            Console.WriteLine("Hola te saludo!!!");
             Console.WriteLine("El cuadrado es:");
             Console.WriteLine(cuadrado(10));
         }
