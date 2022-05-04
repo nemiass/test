@@ -10,6 +10,7 @@ namespace myApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Soy dev");
         }
     }
 }
