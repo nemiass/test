@@ -8,9 +8,18 @@ namespace myApp
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("Soy dev");
+            Console.WriteLine("El cuadrado es:");
+            Console.WriteLine(cuadrado(10));
         }
+
+        static int cuadrado(int a)
+        {
+            return a * a;
+        }
+
     }
 }
